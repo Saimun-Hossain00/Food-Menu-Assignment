@@ -17,7 +17,7 @@ search.addEventListener("click", function() {
                 const foodDiv = document.createElement("div");
                 foodDiv.className = "foods mt-5";
                 const foodInfo = `
-                    <div class="card" style="width: 18rem;" onclick="foodDetail('${foods.strMeal}')">
+                    <div class="card" style="width: 17rem;" onclick="foodDetail('${foods.strMeal}')">
                     <img src="${foods.strMealThumb}" class="card-img-top img-thumbnail" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title">${foods.strMeal}</h5>
